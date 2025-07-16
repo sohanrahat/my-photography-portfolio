@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router';
 import Root from '../Root/Root';
 import Contact from '../pages/Contact';
+import AboutPageContent from '../components/AboutPageContent';
 
 const router = createBrowserRouter([
     {
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/about-me',
-                element: <div>About Me</div>
+                element: <AboutPageContent />
             },
             {
                 path: '/collections',
